@@ -26,9 +26,9 @@ namespace Oops
                 sb.Append(inputString[i]);
             }
 
-            Console.WriteLine($"String {reversedString}");
-            Console.WriteLine($"Chars {newString}");
-            Console.WriteLine($"SB {sb}");
+            Console.WriteLine($"String {reversedString}"); //not recommended for performance
+            Console.WriteLine($"Chars {newString}"); // We can use this
+            Console.WriteLine($"SB {sb}"); // StringBuilder is the best option for performance
 
             return reversedString;
         }
