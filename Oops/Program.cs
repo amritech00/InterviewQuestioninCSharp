@@ -21,7 +21,8 @@
             //class2.Show();
             //class2.Hide();
 
-            BasicCodingQuestion.Reverse("Helo");
+            //BasicCodingQuestion.Reverse("Helo");
+            BasicCodingQuestion.CheckPalindrome("Madam");
         }
     }
 }
