@@ -22,7 +22,9 @@
             //class2.Hide();
 
             //BasicCodingQuestion.Reverse("Helo");
-            BasicCodingQuestion.CheckPalindrome("Madam");
+            //BasicCodingQuestion.CheckPalindrome("Madam");
+
+            BasicCodingQuestion.ReverseOrderofWord("This is our Page");
         }
     }
 }
